@@ -48,12 +48,12 @@ Following software is required to run Linux version of **KCC** and/or bare sourc
 
 On Debian based distributions these two commands should install all needed dependencies:
 ```
-sudo apt-get install python3 python3-dev python3-pip libpng-dev libjpeg-dev p7zip-full
+sudo apt-get install python3 python3-dev python3-pip libpng-dev libjpeg-dev p7zip-full qt5dxcb-plugin
 pip3 install --user --upgrade pillow python-slugify psutil pyqt5 raven
 ```
 
 ### Optional dependencies
-- [KindleGen](http://www.amazon.com/gp/feature.html?ie=UTF8&docId=1000765211) v2.9+ in a directory reachable by your _PATH_ or in _KCC_ directory *(For MOBI generation)*
+- [KindleGen](https://archive.org/download/kindlegen/kindlegen) v2.9+ in a directory reachable by your _PATH_ or in _KCC_ directory *(For MOBI generation)*
 - [7z](http://www.7-zip.org/download.html) *(For CBZ/ZIP, CBR/RAR, 7z/CB7 support)*
 
 ## INPUT FORMATS
